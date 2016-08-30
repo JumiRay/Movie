@@ -1,8 +1,554 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+
+	margin: 0;
+
+	padding: 0;
+
 }
 
-a {
-  color: #00B7FF;
+.piccaa img{
+	display: inline-block;
+	width: 25%;
+	margin: 1%;
+}
+.piccaa{
+	text-align: center;
+}
+li {
+	list-style-type: none;
+}
+
+
+
+img {
+
+	max-width: 100%;
+
+	display: block;
+
+}
+
+
+
+html, body {
+
+	height: 100%;
+
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.35);
+
+	font-family: Helvetica, Tahoma, "\5FAE\8F6F\96C5\9ED1";
+
+	min-width: 320px;
+
+	margin: 0 auto;
+
+	font-size: 62.5%;
+
+}
+
+
+
+
+
+header {
+
+	background: #333333;
+
+	width: 100%;
+
+	height:auto;
+
+	overflow:hidden;
+
+	position:fixed;
+	top:0;
+
+}
+
+.copy{
+
+	background: url(http://f1.freep.cn/570660/images/top.png) no-repeat 0 0;
+
+	background-size:100% 100%;
+
+	width:100%;
+
+	height:auto;
+
+	overflow:hidden;
+
+	
+
+	}
+
+header span {
+
+	font-size: 1.6rem;
+
+	color: #33CC33;
+
+	float:right;
+
+	padding:2% 5% 5% 0;
+
+}
+
+content {
+
+	width: 100%;
+
+	height: auto;
+
+	overflow: hidden;
+
+	margin: 0 auto;
+
+}
+
+
+
+.banner img {
+
+	width: 100%;
+
+}
+
+
+
+.profile {
+
+	background: #f0f0f0;
+
+	height: auto;
+
+	overflow: hidden;
+
+	padding: 4%;
+
+	font-size: 1rem;
+
+	color: #454545;
+
+	text-indent: 2em;
+
+	letter-spacing: 2px;
+
+	border-top: 1px solid #4d4d4d;
+
+	border-bottom: 1px solid #4d4d4d;
+
+	margin-top: 1%;
+
+}
+
+
+
+.profile2 {
+
+	background: #ede5d1;
+
+	height: auto;
+
+	overflow: hidden;
+
+	padding: 2% 4%;
+
+	font-size: 1rem;
+
+	color: #a47f1a;
+
+	letter-spacing: 2px;
+
+	font-weight: bold;
+
+	margin-top: 1%;
+
+	text-align: center;
+
+}
+
+
+
+.figure, .landscape {
+
+	width: 100%;
+
+	height: auto;
+
+	overflow: hidden;
+
+	margin-top: 1%;
+
+}
+
+
+
+.k1, k2 {
+
+	margin-top: 1%;
+
+}
+
+
+
+.k1 p, .k2 p {
+
+	font-size: 1.8em;
+
+	text-align: center;
+
+	background: #f0f0f0;
+
+	padding: 2% 0;
+
+}
+
+
+
+.tit img {
+
+	width: 100%;
+
+}
+
+
+
+.pic {
+
+	width: 99%;
+
+	height: auto;
+
+	overflow: hidden;
+
+	padding: 0.6% 0.5%;
+
+	padding-bottom: 0;
+
+}
+
+
+
+.pic img {
+
+	width: 100%;
+
+}
+
+
+
+.k1 .lfpic {
+
+	width: 49%;
+
+	float: left;
+
+	padding-right: 0.5%;
+
+}
+
+
+
+.k2 .lfpic {
+
+	float: left;
+
+	width: 42%;
+
+	padding-right: 0.5%;
+
+}
+
+
+
+.k1 .rgpic {
+
+	width: 50.5%;
+
+	float: right;
+
+}
+
+
+
+.k2 .rgpic {
+
+	width: 57.5%;
+
+	float: right;
+
+}
+
+
+
+.k1 .rgpic ul li, .k2 .rgpic ul li {
+
+	width: 49.6%;
+
+	float: left;
+
+	padding-right: 0.5%;
+
+	padding-bottom: 0.6%;
+
+}
+
+
+
+.rgpic ul li.rg {
+
+	padding-right: 0;
+
+}
+
+
+
+.rgpic ul li.bm {
+
+	padding-bottom: 0;
+
+}
+
+
+
+.carving .mid {
+
+	height: auto;
+
+	overflow: hidden;
+
+	margin-top: 0.3%;
+
+}
+
+
+
+.carving .mid ul li {
+
+	width: 25%;
+
+	float: left;
+
+}
+
+
+
+.carving .bom {
+
+	height: auto;
+
+	overflow: hidden;
+
+	margin-top: 0.3%;
+
+}
+
+
+
+.carving .bom ul li {
+
+	width: 33.33%;
+
+	float: left;
+
+}
+
+
+
+.carving p {
+
+	font-size: 1.6rem;
+
+	background: #353439;
+
+	color: #09bb07;
+
+	margin: 0.5%;
+
+	padding: 5% 0;
+
+	line-height: 25px;
+
+	font-weight: bold;
+
+}
+
+
+
+footer {
+
+	background: #333333;
+
+	width: 100%;
+
+	border-top: 1px solid #4d4d4d;
+
+	position: fixed;
+
+	bottom: 0;
+
+}
+
+
+
+footer span {
+
+	font-size: 1.6rem;
+
+	color: #33CC33;
+
+	position: absolute;
+
+	top: 10%;
+
+	left: 25%;
+
+}
+
+
+
+div.to-top {
+
+	position: fixed;
+
+	right: 30px;
+
+	bottom: 10px;
+
+	cursor: pointer;
+
+	z-index: 1
+
+}
+
+
+
+.to-top {
+
+	padding: 15px 0 0 10px;
+
+	height: 46px;
+
+	width: 40px;
+
+	background: #353439;
+
+	font-size: 14px;
+
+	color: #fff;
+
+	display: none;
+
+	bottom: 60px
+
+}
+
+
+
+.to-top img {
+
+	margin-left: 7px
+
+}
+
+
+
+.cparea {
+
+	text-align: center;
+
+	font-family: Microsoft Yahei;
+
+	margin: -2em 0 0;
+
+	background: #353439;
+
+}
+
+
+
+.kwd {
+
+	display: inline-block;
+
+	color: #272727;
+
+	background-color: #fff;
+
+	font-size: 2rem;
+
+	padding: 1em 2em;
+
+	border: 1px dashed #e60012;
+
+	-webkit-user-select: element;
+
+	margin: 2em;
+
+}
+
+
+
+.kwd span {
+
+	display: block;
+
+	border: 1px solid #fff;
+
+}
+
+
+
+.kdes {
+
+	display: inline-block;
+
+	color: #fff;
+
+	font-size: 2em;
+
+	padding-top: 0;
+
+}
+
+
+
+.kdes b {
+
+	color: #ed5353;
+
+	font-size: 1.25em;
+
+	padding-right: .1em;
+
+}
+.about{
+
+	width: 100%;
+
+	height: auto;
+
+	overflow:hidden;
+
+	margin-top: 10px;
+
+}
+
+.about_l{
+	width:95%;
+	overflow:hidden;
+	padding: 8px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+}
+
+.about_r{
+ 	width:95%;
+	overflow:hidden;
+	padding: 8px;
+	margin: 0 auto;
 }
